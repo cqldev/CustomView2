@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <com.cql.customview2.TopBarView 
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        custom:leftText="Back"
+        custom:leftTextColor="#FFFFFF"
+        custom:leftBackground="@android:color/darker_gray"
+        custom:titleText="Title"
+        custom:titleTextColor="#123412"
+        custom:titleSize="10sp"
+        custom:rightText="More"
+        custom:rightTextColor="#FFFFFF"
+        custom:rightBackground="@android:color/darker_gray" />
+
+</RelativeLayout>
